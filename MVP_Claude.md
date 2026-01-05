@@ -372,7 +372,7 @@ Return as JSON.
 
 | Service | Purpose | Provider Options |
 |---------|---------|------------------|
-| Frontend hosting | Static site | Vercel, Cloudflare Pages, S3+CloudFront |
+| Frontend hosting | Static site | S3+CloudFront |
 | Backend API | Node.js/TypeScript | Existing AWS setup |
 | Database | Job queue, report storage | Existing RDS Postgres |
 | File storage | PDF reports | S3 |
