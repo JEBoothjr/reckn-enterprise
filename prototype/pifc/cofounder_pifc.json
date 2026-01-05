@@ -1,0 +1,35 @@
+{
+  "probability": {
+    "0.1": "Strong evidence of fit",
+    "0.2": "Good evidence of fit",
+    "0.5": "Some evidence of fit",
+    "1": "Uncertain / mixed signals",
+    "3": "Limited evidence of fit",
+    "6": "Weak evidence of fit",
+    "10": "No evidence of fit"
+  },
+  "impact": {
+    "1": "Minor misalignment, easily addressed",
+    "3": "Small gap, manageable through learning",
+    "7": "Moderate gap, requires significant effort",
+    "15": "Significant gap, potential deal-breaker",
+    "40": "Major gap, serious concern",
+    "100": "Critical gap, fundamental incompatibility"
+  },
+  "frequency": {
+    "0.5": "Core pattern across their entire career",
+    "1": "Demonstrated consistently in multiple ventures",
+    "2": "Demonstrated in several roles/projects",
+    "3": "Demonstrated in some contexts",
+    "6": "Demonstrated rarely or situationally",
+    "10": "Never demonstrated"
+  },
+  "confidence": {
+    "0.07": "Direct evidence from interactions/references",
+    "0.14": "Strong evidence with minor assumptions",
+    "0.21": "Good evidence, some gaps",
+    "0.28": "Partial evidence, notable inference",
+    "0.35": "Limited evidence, significant inference",
+    "0.42": "Minimal evidence, mostly inference"
+  }
+}

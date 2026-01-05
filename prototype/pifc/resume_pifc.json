@@ -1,0 +1,35 @@
+{
+  "probability": {
+    "0.1": "Almost certainly meets criterion",
+    "0.2": "Very likely meets criterion",
+    "0.5": "Likely meets criterion",
+    "1": "Uncertain / mixed signals",
+    "3": "Likely does not meet criterion",
+    "6": "Very likely does not meet criterion",
+    "10": "Almost certainly does not meet criterion"
+  },
+  "impact": {
+    "1": "Trivial gap, negligible weakness",
+    "3": "Minor gap, small weakness",
+    "7": "Moderate gap, notable weakness",
+    "15": "Significant gap, concerning weakness",
+    "40": "Major gap, serious weakness",
+    "100": "Complete gap, no evidence at all"
+  },
+  "frequency": {
+    "0.5": "Core theme across all experience",
+    "1": "Demonstrated consistently throughout career",
+    "2": "Demonstrated in multiple roles",
+    "3": "Demonstrated in some roles",
+    "6": "Demonstrated rarely or once",
+    "10": "Never demonstrated in experience"
+  },
+  "confidence": {
+    "0.07": "Explicit, unambiguous evidence",
+    "0.14": "Strong evidence with minor inference",
+    "0.21": "Good evidence, some gaps",
+    "0.28": "Partial evidence, notable inference",
+    "0.35": "Limited evidence, significant inference",
+    "0.42": "Minimal evidence, mostly inference"
+  }
+}

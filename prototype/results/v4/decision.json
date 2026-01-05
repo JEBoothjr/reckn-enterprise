@@ -1,0 +1,64 @@
+{
+  "engine": "v0.7.0",
+  "score": {
+    "value": 167.5695453383621,
+    "band": 3,
+    "position": 0.68
+  },
+  "data": [
+    {
+      "factor": "engineering_leadership_experience",
+      "weight": 0.25,
+      "raw_score": 4.813735417040012,
+      "weighted_score": 1.203433854260003,
+      "probability": 0.371501037997257,
+      "impact": 5.405848903292188,
+      "frequency": 2.3969461744398726
+    },
+    {
+      "factor": "technical_architecture_expertise",
+      "weight": 0.2,
+      "raw_score": 0.2569059209656592,
+      "weighted_score": 0.05138118419313184,
+      "probability": 0.12818064205532698,
+      "impact": 1.5636128411065395,
+      "frequency": 1.2818064205532698
+    },
+    {
+      "factor": "team_management_execution",
+      "weight": 0.18,
+      "raw_score": 25.604809980792965,
+      "weighted_score": 4.608865796542734,
+      "probability": 0.8096687426611807,
+      "impact": 13.193374853223615,
+      "frequency": 2.3969461744398726
+    },
+    {
+      "factor": "operational_incident_management",
+      "weight": 0.15,
+      "raw_score": 338.66678074912556,
+      "weighted_score": 50.800017112368835,
+      "probability": 0.9017805457704632,
+      "impact": 36.83139272462284,
+      "frequency": 10.196558052697775
+    },
+    {
+      "factor": "high_velocity_team_motivation",
+      "weight": 0.12,
+      "raw_score": 901.8530923083813,
+      "weighted_score": 108.22237107700575,
+      "probability": 2.401397538866031,
+      "impact": 36.83139272462284,
+      "frequency": 10.196558052697775
+    },
+    {
+      "factor": "cross_functional_collaboration",
+      "weight": 0.1,
+      "raw_score": 26.834763139916642,
+      "weighted_score": 2.6834763139916644,
+      "probability": 0.8096687426611807,
+      "impact": 13.193374853223615,
+      "frequency": 2.5120859283264756
+    }
+  ]
+}

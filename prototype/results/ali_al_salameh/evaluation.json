@@ -1,0 +1,166 @@
+{
+  "evaluationId": "3dcba5c7-feea-4825-8eff-f8e8b46b07f0",
+  "timestamp": "2026-01-05T01:00:59.139Z",
+  "sources": {
+    "source": "./results/ali_al_salameh/profile.txt",
+    "criteria": "./sources/cofounder_criteria.json"
+  },
+  "criteria": [
+    {
+      "id": "trust_and_communication",
+      "name": "Trust & Communication",
+      "probability": {
+        "optimistic": 0.5,
+        "mostLikely": 1,
+        "pessimistic": 3,
+        "confidence": 0.35,
+        "reasoning": "Quote: 'I am looking for a co-founder that works well with my style - open feedback, helpful, productive, open-minded' - shows they value open communication but doesn't demonstrate their own communication style or trustworthiness in practice"
+      },
+      "impact": {
+        "optimistic": 1,
+        "mostLikely": 15,
+        "pessimistic": 40,
+        "confidence": 0.21,
+        "reasoning": "Trust and communication are fundamental to any cofounder relationship, especially when giving someone access to bank accounts and making critical business decisions together"
+      },
+      "frequency": {
+        "optimistic": 3,
+        "mostLikely": 6,
+        "pessimistic": 10,
+        "confidence": 0.35,
+        "reasoning": "No direct evidence found - profile lacks examples of difficult conversations, transparency in communication, or situations demonstrating trustworthiness across their career"
+      },
+      "weight": 0.25
+    },
+    {
+      "id": "shared_vision",
+      "name": "Shared Vision",
+      "probability": {
+        "optimistic": 0.5,
+        "mostLikely": 1,
+        "pessimistic": 6,
+        "confidence": 0.28,
+        "reasoning": "Quote: 'I'd love to hear your idea on AI- decision making engine' - shows interest in the concept but doesn't demonstrate deep understanding of Reckn as a decision engine vs point solution"
+      },
+      "impact": {
+        "optimistic": 3,
+        "mostLikely": 15,
+        "pessimistic": 40,
+        "confidence": 0.14,
+        "reasoning": "Shared vision is critical for cofounders to make aligned decisions about product direction, company culture, and strategic choices over the long term"
+      },
+      "frequency": {
+        "optimistic": 2,
+        "mostLikely": 3,
+        "pessimistic": 6,
+        "confidence": 0.28,
+        "reasoning": "Quote: 'Powered by AI & machine learning that prioritizes tasks based on value' and 'analytics platform that showed strengths and weaknesses of features' - shows some experience with decision-support systems but limited evidence of consistent vision alignment across roles"
+      },
+      "weight": 0.25
+    },
+    {
+      "id": "can_sell",
+      "name": "Can Sell",
+      "probability": {
+        "optimistic": 1,
+        "mostLikely": 3,
+        "pessimistic": 6,
+        "confidence": 0.35,
+        "reasoning": "Quote: 'I found a knack in helping small businesses create a more comprehensive business plan' and 'Helped small businesses improve their strategy' - shows some client-facing experience but no direct evidence of selling, pitching, or asking for money"
+      },
+      "impact": {
+        "optimistic": 7,
+        "mostLikely": 15,
+        "pessimistic": 40,
+        "confidence": 0.14,
+        "reasoning": "GTM capability is essential for a cofounder, especially in early-stage startups where revenue generation and customer acquisition are critical for survival"
+      },
+      "frequency": {
+        "optimistic": 3,
+        "mostLikely": 6,
+        "pessimistic": 10,
+        "confidence": 0.35,
+        "reasoning": "Quote: 'helping small businesses create a more comprehensive business plan' - shows some business development experience but lacks consistent evidence of sales activities across their product management roles"
+      },
+      "weight": 0.2
+    },
+    {
+      "id": "figures_things_out",
+      "name": "Figures Things Out",
+      "probability": {
+        "optimistic": 0.1,
+        "mostLikely": 0.2,
+        "pessimistic": 0.5,
+        "confidence": 0.21,
+        "reasoning": "Quote: 'I've worn a lot of hats including: industry research, strategy, building processes, product fit & MVP, guiding design and eng' and 'Launched Wound Care app which physicians used connected devices to photograph wounds' - demonstrates versatility and ability to tackle complex problems across different domains"
+      },
+      "impact": {
+        "optimistic": 1,
+        "mostLikely": 7,
+        "pessimistic": 15,
+        "confidence": 0.14,
+        "reasoning": "Problem-solving ability is crucial for startup success, but can potentially be developed if other foundational skills are strong"
+      },
+      "frequency": {
+        "optimistic": 1,
+        "mostLikely": 2,
+        "pessimistic": 3,
+        "confidence": 0.21,
+        "reasoning": "Quote: 'went from accounting to tax/business planning to product management' and multiple product launches across different industries - shows consistent pattern of learning new domains and solving complex problems"
+      },
+      "weight": 0.15
+    },
+    {
+      "id": "full_time_committed",
+      "name": "Full-Time Committed",
+      "probability": {
+        "optimistic": 0.2,
+        "mostLikely": 1,
+        "pessimistic": 3,
+        "confidence": 0.35,
+        "reasoning": "Quote: 'I'm non-technical, passively looking' and currently employed at Comcast - 'passively looking' suggests not fully committed, and no mention of willingness to leave current role or work for equity only"
+      },
+      "impact": {
+        "optimistic": 15,
+        "mostLikely": 40,
+        "pessimistic": 100,
+        "confidence": 0.07,
+        "reasoning": "Full-time commitment is explicitly stated as 'Binary. In or out' - this is a fundamental requirement that cannot be compromised for a cofounder relationship"
+      },
+      "frequency": {
+        "optimistic": 6,
+        "mostLikely": 10,
+        "pessimistic": 10,
+        "confidence": 0.28,
+        "reasoning": "No direct evidence found - profile shows consistent employment at large corporations but no evidence of startup commitment, equity-only compensation, or leaving stable roles for entrepreneurial ventures"
+      },
+      "weight": 0.1
+    },
+    {
+      "id": "startup_experience",
+      "name": "Startup Experience",
+      "probability": {
+        "optimistic": 6,
+        "mostLikely": 10,
+        "pessimistic": 10,
+        "confidence": 0.21,
+        "reasoning": "No direct evidence found - all employment history shows large corporations (Comcast, Walmart, Northwestern Mutual, UHS, Penn Mutual) with no mention of early-stage companies or founding experience"
+      },
+      "impact": {
+        "optimistic": 1,
+        "mostLikely": 3,
+        "pessimistic": 7,
+        "confidence": 0.14,
+        "reasoning": "Criterion is explicitly described as 'Nice to have. Not predictive' - while helpful, lack of startup experience is not a deal-breaker if other criteria are met"
+      },
+      "frequency": {
+        "optimistic": 6,
+        "mostLikely": 10,
+        "pessimistic": 10,
+        "confidence": 0.21,
+        "reasoning": "No direct evidence found - entire career appears to be at established corporations with no startup or early-stage company experience mentioned"
+      },
+      "weight": 0.05
+    }
+  ]
+}

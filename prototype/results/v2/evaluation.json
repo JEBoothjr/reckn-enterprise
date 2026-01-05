@@ -1,0 +1,166 @@
+{
+  "evaluationId": "bd97ed9c-f007-4ea5-a5e8-c023a9c09b74",
+  "timestamp": "2026-01-04T21:43:36.229Z",
+  "sources": {
+    "source": "./sources/resume.txt",
+    "criteria": "./results/criteria.json"
+  },
+  "criteria": [
+    {
+      "id": "engineering_leadership_experience",
+      "name": "Engineering Leadership Experience",
+      "probability": {
+        "optimistic": 0.1,
+        "mostLikely": 0.2,
+        "pessimistic": 0.5,
+        "confidence": 0.21,
+        "reasoning": "Quote: 'Managed and scaled global engineering teams across India and LATAM, direct management of senior engineers and team leads, and indirect management through designated managers' and 'Led fully remote Infrastructure, Platform, and Integrations teams' and 'As Manager of the front-end team, I led day-to-day development' - Shows clear leadership experience across multiple roles with 25+ years total experience, though specific details about managing managers and simultaneous team counts require some inference"
+      },
+      "impact": {
+        "optimistic": 1,
+        "mostLikely": 3,
+        "pessimistic": 7,
+        "confidence": 0.21,
+        "reasoning": "Quote: 'Managed and scaled global engineering teams across India and LATAM, direct management of senior engineers and team leads, and indirect management through designated managers' - Shows strong leadership capability, though some specifics about team scaling and hiring processes are not detailed"
+      },
+      "frequency": {
+        "optimistic": 1,
+        "mostLikely": 2,
+        "pessimistic": 3,
+        "confidence": 0.14,
+        "reasoning": "Quote: Multiple roles show leadership - CTO at ATTUNE, Director at Tesorio, Head of DevOps at FloQast, Engineering Manager at M-GO - Leadership experience spans multiple companies and roles consistently"
+      },
+      "weight": 0.25
+    },
+    {
+      "id": "technical_architecture_expertise",
+      "name": "Technical Architecture Expertise",
+      "probability": {
+        "optimistic": 0.1,
+        "mostLikely": 0.1,
+        "pessimistic": 0.2,
+        "confidence": 0.07,
+        "reasoning": "Quote: 'Led a full rebuild of the core product, modernizing architecture, security model, PostgreSQL data layer, and cloud infrastructure' and 'Principal Software Architect' and 'I architected and managed the development of all infrastructure across several AWS accounts' - Extensive technical architecture experience clearly demonstrated"
+      },
+      "impact": {
+        "optimistic": 1,
+        "mostLikely": 1,
+        "pessimistic": 3,
+        "confidence": 0.07,
+        "reasoning": "Quote: 'Principal Software Architect' and 'Led a full rebuild of the core product, modernizing architecture' and 'Designed and implemented the core PostgreSQL architecture' - Strong technical architecture expertise with hands-on experience, though formal degree completion is in progress"
+      },
+      "frequency": {
+        "optimistic": 0.5,
+        "mostLikely": 1,
+        "pessimistic": 1,
+        "confidence": 0.07,
+        "reasoning": "Quote: Architecture work spans multiple roles - 'Principal Software Architect' at FloQast, 'modernizing architecture' at ATTUNE, 'full architecture migration from Heroku to Kubernetes' at Tesorio - Core theme across recent experience"
+      },
+      "weight": 0.2
+    },
+    {
+      "id": "team_management_execution",
+      "name": "Team Management & Execution",
+      "probability": {
+        "optimistic": 0.2,
+        "mostLikely": 0.5,
+        "pessimistic": 1,
+        "confidence": 0.21,
+        "reasoning": "Quote: 'conducting regular 1:1s focused on mentorship and career growth' and 'I've mentored more than 60 individuals' and 'outline the career path strategy for DevOps Engineers' - Shows mentoring and team development, though specific metrics on velocity and quality balance require inference"
+      },
+      "impact": {
+        "optimistic": 1,
+        "mostLikely": 3,
+        "pessimistic": 7,
+        "confidence": 0.21,
+        "reasoning": "Quote: 'establishing engineering standards, delivery processes, and operational rigor' and 'establishing consistent agile delivery practices' - Shows process establishment and team management, though specific examples of maintaining quality while driving velocity are limited"
+      },
+      "frequency": {
+        "optimistic": 2,
+        "mostLikely": 2,
+        "pessimistic": 3,
+        "confidence": 0.14,
+        "reasoning": "Quote: Team management appears in multiple roles - 'scaled global engineering teams' at ATTUNE, 'Led fully remote Infrastructure, Platform, and Integrations teams' at Tesorio, 'scaled the DevOps team to support more than a dozen Engineering teams' at FloQast - Consistent across recent leadership roles"
+      },
+      "weight": 0.18
+    },
+    {
+      "id": "operational_incident_management",
+      "name": "Operational & Incident Management",
+      "probability": {
+        "optimistic": 0.2,
+        "mostLikely": 0.5,
+        "pessimistic": 1,
+        "confidence": 0.28,
+        "reasoning": "Quote: 'Defined and documented core engineering processes, including incident response, postmortems, and change management' and 'Owned end-to-end DevOps strategy, including AWS infrastructure, CI/CD pipelines, environment isolation, and production reliability' - Shows process definition for incident management, though specific examples of driving incidents to resolution are not detailed"
+      },
+      "impact": {
+        "optimistic": 3,
+        "mostLikely": 7,
+        "pessimistic": 15,
+        "confidence": 0.28,
+        "reasoning": "Quote: 'incident response, postmortems, and change management, improving operational consistency and reliability' - Shows process establishment but lacks specific examples of hands-on incident resolution and operational urgency management"
+      },
+      "frequency": {
+        "optimistic": 2,
+        "mostLikely": 3,
+        "pessimistic": 6,
+        "confidence": 0.28,
+        "reasoning": "Quote: 'incident response, postmortems' at Tesorio and 'production reliability' at ATTUNE - Operational focus appears in some roles but not consistently detailed across all leadership positions"
+      },
+      "weight": 0.15
+    },
+    {
+      "id": "high_velocity_team_motivation",
+      "name": "High-Velocity Team Motivation",
+      "probability": {
+        "optimistic": 0.5,
+        "mostLikely": 1,
+        "pessimistic": 3,
+        "confidence": 0.35,
+        "reasoning": "Quote: 'high-velocity environments' is not directly mentioned, though 'startup environments' and 'hyper-growth' context can be inferred from roles at ATTUNE, FloQast as 'employee #1', and multiple startup experiences - Startup experience suggests high-velocity environments but specific motivation techniques in high-expectation settings require significant inference"
+      },
+      "impact": {
+        "optimistic": 7,
+        "mostLikely": 15,
+        "pessimistic": 40,
+        "confidence": 0.35,
+        "reasoning": "No direct evidence found of specific techniques for motivating teams in high-velocity, high-expectation environments or managing teams when standards are particularly demanding - This is a notable gap requiring inference from general leadership experience"
+      },
+      "frequency": {
+        "optimistic": 3,
+        "mostLikely": 6,
+        "pessimistic": 10,
+        "confidence": 0.35,
+        "reasoning": "No direct evidence found of consistently demonstrating high-velocity team motivation techniques - While startup and scaling environments suggest this context, specific examples of motivating teams under high expectations are not provided"
+      },
+      "weight": 0.12
+    },
+    {
+      "id": "cross_functional_collaboration",
+      "name": "Cross-Functional Collaboration",
+      "probability": {
+        "optimistic": 0.2,
+        "mostLikely": 0.5,
+        "pessimistic": 1,
+        "confidence": 0.21,
+        "reasoning": "Quote: 'partnering closely with the CEO on product and technical strategy' and 'Led SOC compliance efforts, partnering with security and compliance stakeholders' and 'worked closely with product managers and designers' - Shows collaboration with various stakeholders, though specific obstacle removal and stakeholder management details require some inference"
+      },
+      "impact": {
+        "optimistic": 1,
+        "mostLikely": 3,
+        "pessimistic": 7,
+        "confidence": 0.21,
+        "reasoning": "Quote: 'partnering closely with the CEO on product and technical strategy' and 'worked closely with product managers and designers to create appealing applications' - Demonstrates cross-functional collaboration capability, though specific examples of obstacle removal and autonomous team creation are limited"
+      },
+      "frequency": {
+        "optimistic": 2,
+        "mostLikely": 2,
+        "pessimistic": 3,
+        "confidence": 0.14,
+        "reasoning": "Quote: Cross-functional work appears across roles - 'partnering closely with the CEO' at ATTUNE, 'cross-functional workflows' at Tesorio, 'worked closely with product managers and designers' at MySpace - Consistent pattern across multiple positions"
+      },
+      "weight": 0.1
+    }
+  ]
+}

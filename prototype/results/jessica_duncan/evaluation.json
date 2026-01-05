@@ -1,0 +1,166 @@
+{
+  "evaluationId": "11465516-4075-4a7b-9539-bf8863376cd6",
+  "timestamp": "2026-01-05T00:23:05.610Z",
+  "sources": {
+    "source": "./results/jessica_duncan/profile.txt",
+    "criteria": "./sources/cofounder_criteria.json"
+  },
+  "criteria": [
+    {
+      "id": "trust_and_communication",
+      "name": "Trust & Communication",
+      "probability": {
+        "optimistic": 0.5,
+        "mostLikely": 1,
+        "pessimistic": 3,
+        "confidence": 0.35,
+        "reasoning": "Quote: 'Communication' and 'Interpersonal Skills' and 'Oral Communication' appear repeatedly across roles - Shows communication skills in professional contexts, but no evidence of hard conversations, directness, or reliability in high-stakes situations"
+      },
+      "impact": {
+        "optimistic": 15,
+        "mostLikely": 40,
+        "pessimistic": 100,
+        "confidence": 0.21,
+        "reasoning": "No direct evidence found - Trust and communication are fundamental to cofounder relationships, especially around financial decisions and difficult conversations"
+      },
+      "frequency": {
+        "optimistic": 2,
+        "mostLikely": 3,
+        "pessimistic": 6,
+        "confidence": 0.28,
+        "reasoning": "Quote: 'Communication' and 'Interpersonal Skills' appear across multiple roles at Greenlight, Boston Scientific, Kaplan - Professional communication demonstrated but unclear if extends to cofounder-level directness and reliability"
+      },
+      "weight": 0.25
+    },
+    {
+      "id": "shared_vision",
+      "name": "Shared Vision",
+      "probability": {
+        "optimistic": 3,
+        "mostLikely": 6,
+        "pessimistic": 10,
+        "confidence": 0.42,
+        "reasoning": "Quote: 'I want a co-founder who is set on a specific idea' - Shows preference for joining existing ideas rather than building shared vision. No evidence of understanding Reckn as decision engine or excitement about the specific problem"
+      },
+      "impact": {
+        "optimistic": 7,
+        "mostLikely": 15,
+        "pessimistic": 40,
+        "confidence": 0.21,
+        "reasoning": "No direct evidence found - Shared vision is critical for cofounders but can potentially be developed through alignment conversations"
+      },
+      "frequency": {
+        "optimistic": 6,
+        "mostLikely": 10,
+        "pessimistic": 10,
+        "confidence": 0.35,
+        "reasoning": "No direct evidence found - Profile shows no history of building shared vision or working on decision engine concepts across career"
+      },
+      "weight": 0.25
+    },
+    {
+      "id": "can_sell",
+      "name": "Can Sell",
+      "probability": {
+        "optimistic": 3,
+        "mostLikely": 6,
+        "pessimistic": 10,
+        "confidence": 0.35,
+        "reasoning": "Quote: 'Strategic partner to VPs of performance and brand marketing' and 'Partner Relationship Management' - Shows ability to work with stakeholders but no evidence of direct selling, pitching, or asking for money"
+      },
+      "impact": {
+        "optimistic": 15,
+        "mostLikely": 40,
+        "pessimistic": 100,
+        "confidence": 0.14,
+        "reasoning": "No direct evidence found - Sales capability is critical for startup success and GTM execution"
+      },
+      "frequency": {
+        "optimistic": 6,
+        "mostLikely": 10,
+        "pessimistic": 10,
+        "confidence": 0.28,
+        "reasoning": "Quote: 'Partner Relationship Management' appears in multiple roles - Shows stakeholder management but no pattern of direct sales or revenue generation activities"
+      },
+      "weight": 0.2
+    },
+    {
+      "id": "figures_things_out",
+      "name": "Figures Things Out",
+      "probability": {
+        "optimistic": 0.2,
+        "mostLikely": 0.5,
+        "pessimistic": 1,
+        "confidence": 0.21,
+        "reasoning": "Quote: 'Founding data scientist for the Enterprise Marketing Analytics team' and 'ground-up lead scoring model and implementation' - Shows ability to build new capabilities and solve complex problems independently"
+      },
+      "impact": {
+        "optimistic": 7,
+        "mostLikely": 15,
+        "pessimistic": 40,
+        "confidence": 0.14,
+        "reasoning": "Quote: 'Problem Solving' appears across multiple roles - This capability is important but can be developed, and candidate shows some evidence of it"
+      },
+      "frequency": {
+        "optimistic": 1,
+        "mostLikely": 2,
+        "pessimistic": 3,
+        "confidence": 0.21,
+        "reasoning": "Quote: 'Problem Solving' and 'Strategic Thinking' appear consistently, plus 'Founding data scientist' and 'ground-up' implementations - Shows pattern of tackling new challenges across multiple roles"
+      },
+      "weight": 0.15
+    },
+    {
+      "id": "full_time_committed",
+      "name": "Full-Time Committed",
+      "probability": {
+        "optimistic": 1,
+        "mostLikely": 3,
+        "pessimistic": 6,
+        "confidence": 0.35,
+        "reasoning": "Quote: 'passively looking' and currently employed as 'Senior Manager, Data Science & Analytics' at AG1 plus 'Adjunct Assistant Professor' - Shows current employment and passive interest, unclear on full-time commitment"
+      },
+      "impact": {
+        "optimistic": 40,
+        "mostLikely": 100,
+        "pessimistic": 100,
+        "confidence": 0.07,
+        "reasoning": "No direct evidence found - Full-time commitment is binary and critical for startup success"
+      },
+      "frequency": {
+        "optimistic": 6,
+        "mostLikely": 10,
+        "pessimistic": 10,
+        "confidence": 0.28,
+        "reasoning": "Quote: 'passively looking' - No evidence of previous full-time startup commitment or equity-only work across career history"
+      },
+      "weight": 0.1
+    },
+    {
+      "id": "startup_experience",
+      "name": "Startup Experience",
+      "probability": {
+        "optimistic": 3,
+        "mostLikely": 6,
+        "pessimistic": 10,
+        "confidence": 0.28,
+        "reasoning": "Quote: Work history shows Boston Scientific, Greenlight, AG1, Kaplan Test Prep - All appear to be established companies, with Greenlight being the most startup-like (fintech). No clear early-stage startup experience"
+      },
+      "impact": {
+        "optimistic": 1,
+        "mostLikely": 3,
+        "pessimistic": 7,
+        "confidence": 0.14,
+        "reasoning": "No direct evidence found - Startup experience is noted as 'Nice to have. Not predictive' so impact is lower than other criteria"
+      },
+      "frequency": {
+        "optimistic": 3,
+        "mostLikely": 6,
+        "pessimistic": 10,
+        "confidence": 0.28,
+        "reasoning": "Quote: Greenlight experience (fintech) - Limited startup exposure, mostly established company experience across career"
+      },
+      "weight": 0.05
+    }
+  ]
+}

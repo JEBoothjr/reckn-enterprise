@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    {
+      "id": "trust_and_communication",
+      "name": "Trust & Communication",
+      "description": "You can have hard conversations with them. They say what they think. They do what they say. You'd be comfortable giving them access to the bank account.",
+      "weight": 0.25
+    },
+    {
+      "id": "shared_vision",
+      "name": "Shared Vision",
+      "description": "They get that Reckn is a decision engine, not a point solution. Excited about the problem. Aligned on what kind of company you want to build and how you want to build it.",
+      "weight": 0.25
+    },
+    {
+      "id": "can_sell",
+      "name": "Can Sell",
+      "description": "Capable of GTM. Experience level is secondary. Comfortable talking to strangers, pitching, handling objections, and asking for money.",
+      "weight": 0.20
+    },
+    {
+      "id": "figures_things_out",
+      "name": "Figures Things Out",
+      "description": "Scrappy > credentialed. Will learn what they don't know. Doesn't wait to be told what to do. Has solved hard problems before.",
+      "weight": 0.15
+    },
+    {
+      "id": "full_time_committed",
+      "name": "Full-Time Committed",
+      "description": "Binary. In or out. No other startup, no consulting on the side. Available now and willing to work for equity.",
+      "weight": 0.10
+    },
+    {
+      "id": "startup_experience",
+      "name": "Startup Experience",
+      "description": "Nice to have. Not predictive. Has worked at an early-stage company or started something before.",
+      "weight": 0.05
+    }
+  ],
+  "reasoning": "Trust & Communication is foundation - everything else fails without it. Shared Vision at equal weight because they need to understand Reckn is a decision engine, not a point solution. Sales capability matters but experience level is secondary. Scrappy beats credentials. Commitment is binary. Startup experience is nice but not predictive."
+}

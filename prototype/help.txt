@@ -1,0 +1,11 @@
+
+
+node generate-criteria.js --source ./sources/job-description.txt --prompt ./prompts/job-description-criteria-prompt.md --key $CLAUDE_API --out ./results/criteria.json --max 7
+
+node evaluate.js --source ./sources/resume.txt --criteria ./results/criteria.json --prompt ./prompts/evaluate-resume-prompt.md --pifc ./pifc/resume_pifc.json --key $CLAUDE_API --out ./results/evaluation.json
+
+node decision.js --evaluation ./results/evaluation.json --out ./results/decision.json
+
+node report.js --criteria ./results/criteria.json --evaluation ./results/evaluation.json --decision ./results/decision.json --out ./results/report.md
+
+CLAUDE_API=$CLAUDE_API bash run.sh ./results/...

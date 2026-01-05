@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    {
+      "id": "engineering_leadership_experience",
+      "name": "Engineering Leadership Experience",
+      "description": "10+ years of engineering experience with 3+ years in engineering leadership roles, specifically managing managers and multiple teams. Must have proven track record of building and scaling high-performing engineering teams in a SaaS or tech environment. Experience leading 2+ engineering teams simultaneously with responsibility for hiring, onboarding, and professional development.",
+      "weight": 0.25
+    },
+    {
+      "id": "technical_architecture_expertise",
+      "name": "Technical Architecture Expertise",
+      "description": "Deep technical expertise in either backend system design or frontend component architecture. Must be a hands-on technical leader capable of driving technical excellence and making architectural decisions. Bachelor's or Master's degree in Computer Science, Engineering, or related field (or equivalent experience).",
+      "weight": 0.2
+    },
+    {
+      "id": "team_management_execution",
+      "name": "Team Management & Execution",
+      "description": "Ability to lead, mentor, and manage multiple engineering teams while ensuring high morale, strong execution, and technical excellence. Must demonstrate capability to drive velocity of feature development while maintaining quality, reliability, and performance. Experience fostering culture of accountability, continuous improvement, and innovation.",
+      "weight": 0.18
+    },
+    {
+      "id": "operational_incident_management",
+      "name": "Operational & Incident Management",
+      "description": "Strong operational skills with ability to drive incidents to resolution and implement process improvements. Must balance operational urgency in handling incidents with long-term technical strategy. Experience maintaining system reliability and performance in high-velocity environments.",
+      "weight": 0.15
+    },
+    {
+      "id": "high_velocity_team_motivation",
+      "name": "High-Velocity Team Motivation",
+      "description": "Demonstrated ability to motivate teams in high-velocity, high-expectation environments. Must excel at driving progress on both large-scale projects and small tasks that keep teams moving. Ability to keep teams motivated when standards and expectations are high, with experience in fast-paced, hyper-growth environments.",
+      "weight": 0.12
+    },
+    {
+      "id": "cross_functional_collaboration",
+      "name": "Cross-Functional Collaboration",
+      "description": "Excellent communication, collaboration, and stakeholder management skills. Must collaborate effectively with Product, Design, and other stakeholders to deliver on company priorities. Ability to identify and remove obstacles to team success, ensuring healthy, autonomous teams that require minimal oversight.",
+      "weight": 0.1
+    }
+  ],
+  "reasoning": "Weights prioritize the core leadership requirements (25% for leadership experience) and technical expertise (20%) as these are repeatedly emphasized and listed first in qualifications. Team management and execution (18%) and operational skills (15%) are weighted highly as they're central to the role's day-to-day responsibilities. Team motivation (12%) and collaboration (10%) receive moderate weights as important but supporting capabilities."
+}

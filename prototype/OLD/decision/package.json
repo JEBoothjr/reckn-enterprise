@@ -1,0 +1,13 @@
+{
+  "name": "reckn-evaluator",
+  "version": "0.1.0",
+  "description": "AI-powered evaluation module for Reckn decision engine",
+  "main": "index.js",
+  "scripts": {
+    "example": "node example.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "jstat": "^1.9.6"
+  }
+}

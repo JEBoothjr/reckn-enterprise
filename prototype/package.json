@@ -1,0 +1,9 @@
+{
+  "name": "reckn-prototype",
+  "version": "0.1.0",
+  "description": "Reckn AI evaluation prototype",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "jstat": "^1.9.6"
+  }
+}

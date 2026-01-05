@@ -1,0 +1,65 @@
+{
+  "engine": "v0.7.0",
+  "score": {
+    "value": 3371.724442968353,
+    "band": 4,
+    "position": 0.21,
+    "tolerance": 1.5
+  },
+  "data": [
+    {
+      "factor": "trust_and_communication",
+      "weight": 0.25,
+      "raw_score": 1046.578562555477,
+      "weighted_score": 261.64464063886925,
+      "probability": 2.6892469235825383,
+      "impact": 75.19397057441711,
+      "frequency": 5.175569395518982
+    },
+    {
+      "factor": "shared_vision",
+      "weight": 0.25,
+      "raw_score": 3742.5047210854073,
+      "weighted_score": 935.6261802713518,
+      "probability": 11.002536329903997,
+      "impact": 29.232168968107036,
+      "frequency": 11.636128411065396
+    },
+    {
+      "factor": "can_sell",
+      "weight": 0.2,
+      "raw_score": 7453.291266570616,
+      "weighted_score": 1490.6582533141234,
+      "probability": 10.196558052697775,
+      "impact": 65.40709149405586,
+      "frequency": 11.175569395518984
+    },
+    {
+      "factor": "figures_things_out",
+      "weight": 0.15,
+      "raw_score": 55.4096029704502,
+      "weighted_score": 8.31144044556753,
+      "probability": 0.8096687426611807,
+      "impact": 25.432557089849134,
+      "frequency": 2.690838523319618
+    },
+    {
+      "factor": "full_time_committed",
+      "weight": 0.1,
+      "raw_score": 6546.94742988031,
+      "weighted_score": 654.6947429880311,
+      "probability": 6.045160513831743,
+      "impact": 96.90838523319619,
+      "frequency": 11.175569395518984
+    },
+    {
+      "factor": "startup_experience",
+      "weight": 0.05,
+      "raw_score": 415.7837062081936,
+      "weighted_score": 20.78918531040968,
+      "probability": 9.390579775491553,
+      "impact": 4.71501037997257,
+      "frequency": 9.390579775491553
+    }
+  ]
+}
